@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>authorization-server</artifactId>
+    <artifactId>resource-server</artifactId>
 
 
     <dependencies>
@@ -31,6 +31,5 @@
             <artifactId>spring-security-oauth2</artifactId>
         </dependency>
     </dependencies>
-
 
 </project>
