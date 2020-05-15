@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 public class UserRestAPI {
 
-    @RequestMapping("/api/uses")
+    @RequestMapping("/api/users")
     public ResponseEntity<List<User>> getUsers(){
         List<User> users = new ArrayList<>() ;
         users.add(new User("kevin",33)) ;
