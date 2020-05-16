@@ -21,7 +21,6 @@ public class ResourceServerConfiguration extends ResourceServerConfigurerAdapter
              .requestMatchers()
                 .antMatchers("/api/**")
                 .antMatchers("/user/api/**")
-                .antMatchers("/admin/api/**")
         ;
 
     }
