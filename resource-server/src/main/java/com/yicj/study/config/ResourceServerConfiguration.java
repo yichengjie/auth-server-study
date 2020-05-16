@@ -19,7 +19,11 @@ public class ResourceServerConfiguration extends ResourceServerConfigurerAdapter
                 .authenticated()
                 .and()
              .requestMatchers()
-                .antMatchers("/api/**") ;
+                .antMatchers("/api/**")
+                .antMatchers("/user/api/**")
+                .antMatchers("/admin/api/**")
+        ;
+
     }
 
     @Primary
