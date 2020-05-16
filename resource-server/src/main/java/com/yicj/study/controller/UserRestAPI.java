@@ -1,6 +1,6 @@
 package com.yicj.study.controller;
 
-import com.yicj.study.entity.User;
+import com.yicj.study.model.User;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

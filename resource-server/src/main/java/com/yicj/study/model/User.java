@@ -1,4 +1,4 @@
-package com.yicj.study.entity;
+package com.yicj.study.model;
 
 public class User {
     private String name ;
